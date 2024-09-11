@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlgesicActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Algesic"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/algesicDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Algesic est un médicament analgésique, c'est-à-dire un médicament utilisé pour soulager la douleur. Il peut appartenir à différentes classes d'analgésiques, telles que les anti-inflammatoires non stéroïdiens (AINS) ou les analgésiques opioïdes, selon sa composition chimique et ses propriétés pharmacologiques.
+
+Les médicaments analgésiques sont souvent utilisés pour soulager divers types de douleurs, qu'elles soient légères, modérées ou sévères. Cependant, comme pour tout médicament, il est important de suivre les instructions du médecin ou du pharmacien, de respecter la posologie recommandée et de prendre en compte les éventuels effets secondaires ou contre-indications.
+
+
+
+
+
+"/>
+
+
+</RelativeLayout>

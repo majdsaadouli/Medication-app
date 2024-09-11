@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GrippexActivity2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grippex"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/grippexDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="Traitement des symptômes dus au rhume, rhinite allergique
+(sensation de nez bouché, écoulement nasal clair) et sinusite.
+POSOLOGIE ET MODE D’ADMINISTRATION :
+Ce médicament est réservé à l’adulte et à l’enfant de
+plus de 12 ans.
+2 gélules de Gripex® par jour sont suffisantes et il convient
+d’espacer ces deux prises d’environ 12 heures.
+Ne pas mâcher, ne pas écraser les microgranules.
+La durée du traitement ne doit pas excéder 5 jours.
+CONTRE-INDICATIONS :
+- Allergie aux constituants du produit, notamment aux
+antihistaminiques.
+- Maladie grave du cœur.
+- Certaines formes de glaucomes (augmentation de la
+pression dans l'œil).
+- Difficultés à uriner d'origine prostatique ou non.
+- Convulsion ancienne ou récente.
+- Hypertension artérielle grave ou mal équilibrée par le
+traitement.
+- Enfants de moins de 12 ans. "/>
+
+
+</RelativeLayout>
